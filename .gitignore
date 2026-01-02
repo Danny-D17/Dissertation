@@ -1,0 +1,24 @@
+# Exclude large dataset files
+*.nii
+*.nii.gz
+MosMedData*/
+
+# Exclude processed data and outputs
+data_slices/
+gradcam_binary/
+gradcam_densenet121/
+
+# Exclude trained models
+models/
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.pth
+*.weights
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
