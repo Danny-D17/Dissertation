@@ -11,7 +11,8 @@ gradcam_densenet121/
 # Exclude trained models
 models/
 *.h5
-*.keras
+mosmed_cnn_baseline.keras
+mosmed_cnn_binary.keras
 *.pb
 *.ckpt
 *.pth
