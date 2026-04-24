@@ -55,7 +55,7 @@ DISSERTATION/
 
 ## Dataset
 
-This project uses the [MosMedData: Chest CT Scans with COVID-19 Related Findings](https://mosmed.ai/en/) dataset, which contains anonymised chest CT scans labelled across five severity categories (CT-0 to CT-4).
+This project uses the [MosMedData: Chest CT Scans with COVID-19 Related Findings](https://mosmed.ai/en/datasets/datasets/covid191110/) dataset, which contains anonymised chest CT scans labelled across five severity categories (CT-0 to CT-4).
 
 CT slices are extracted from NIfTI volumes using `scripts/prepare_slices.py` and saved as PNG images under `data_slices/`.
 
@@ -143,7 +143,7 @@ Grad-CAM (Gradient-weighted Class Activation Mapping) is used to generate heatma
 
 ## Acknowledgements
 
-- Dataset: [MosMedData](https://mosmed.ai/en/)
+- Dataset: [MosMedData](https://mosmed.ai/en/datasets/datasets/covid191110/)
 - Supervisor: Oluseyi Oyedeji
 - Built as part of a BSc/MSc dissertation at the University of Northampton
 
